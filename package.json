@@ -1,0 +1,18 @@
+{
+  "name": "countie",
+  "version": "0.1.0",
+	"description": "Watcher that auto-renames `x.png` to `x_#.png` for quick saving",
+  "main": "index.js",
+	"bin": {
+    "countie": "index.js"
+	},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Michael Huang (mike@htwins.net)",
+  "license": "ISC",
+	"repository": "https://github.com/fernozzle/countie",
+  "dependencies": {
+    "chokidar": "^2.0.0"
+  }
+}
