@@ -38,7 +38,7 @@ function handler(filePath, stats) {
 	}
 
 	let newName = null
-	for (let i = 0; !newName; i++) {
+	for (let i = 1; !newName; i++) {
 		const tryName = notExt + '_' + i + ext
 		console.log('Seeing if ' + tryName + ' exists...')
 		if (fs.existsSync(tryName)) continue
